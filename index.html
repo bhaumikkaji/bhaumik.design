@@ -19,7 +19,7 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
          
         <!-- FONTS -->
-        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Rubik:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Prata:400,700' rel='stylesheet' type='text/css'>
             
@@ -77,11 +77,11 @@
                     
                     <!-- InstanceBeginEditable name="Menu-Content" -->
                     
-                   	<li><a href="#/about">about me</a></li>
-                    <li><a href="#/portfolio">portfolio</a></li>
-                    <li><a href="#/contact">contact</a></li>
-                     <li><a href="#/blog">blog</a></li> 
-                    <li><a href="#/resume">resume</a></li>
+                   	<li><a href="#/about">About me</a></li>
+                    <li><a href="#/portfolio">Portfolio</a></li>
+                    <li><a href="#/contact">Contact</a></li>
+                     <li><a href="#/blog">Blog</a></li> 
+                    <li><a href="#/resume">Resume</a></li>
                     
                     <!-- InstanceEndEditable -->
                 	
@@ -112,11 +112,21 @@
                         <!-- row -->
                         <div class="row">
                         	
-                            <!-- column 8/12 -->
-                        	<div class="col-md-8">
+                            <!-- column 12/12 -->
+                        	<div class="col-md-12">
                             	
                                 <h2 class="section-title"><span><i class="icon-guest"></i>ABOUT ME</span></h2>
-                                
+                                </div>
+                            <!-- column 8/12 -->
+                            
+                            
+                            <!-- column 12/12 -->
+                            <div class="col-md-12">
+
+                            <div class="lottie">
+                            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ih39jkk9.json" style="height: 400px;" background="transparent"  speed="1" hover></lottie-player>
+                            </div>  
+                            </div>
                                 <!-- intro -->
                                 <div class="intro">
                         	
@@ -141,17 +151,7 @@
                                 <!-- intro -->
                                 
                                 
-                            </div>
-                            <!-- column 8/12 -->
-                        	
                             
-                            <!-- column 4/12 -->
-                            <div class="col-md-4">
-
-                            <div class="lottie">
-                            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_51hxjnkl.json" style="height: 360px;" background="transparent"  speed="1" autoplay></lottie-player>
-                        </div>  
-                        </div>
                             <!--<div class="col-md-4">
                             
                             	<h2 class="section-title"><span><i class="icon-twitter"></i>LATEST TWEETS</span></h2>	
@@ -836,7 +836,7 @@
                                     </div>
                                   
                                     <div class="letter-info">
-                                        <p><i class="icon-at"></i>bhaumikkaji@gmail.com</p>
+                                        <p><i class="icon-at"></i><a href="mailto:bhaumikkaji@gmail.com">bhaumikkaji@gmail.com</a></p>
                                         <p><i class="icon-phone"></i>+91 888 4280 139</p>
                                         <p><i class="icon-location"></i> New Delhi, India.</p>
                                     </div>
@@ -904,32 +904,25 @@
                                   <!-- .contact-form -->
                                     <div class="contact-form">
                                     
-                                      <form id="contact-form" action="send-mail.php" method="post"> 
+                                      <form action="https://formspree.io/f/xleavoga" method="POST">
                                         
-                                        <!-- enter mail subject here -->
-                                      <input type="hidden" name="subject" id="subject" value="You have a new message from your portfolio site">
+                                        <label>Your email:
                                         
-                                        <p>
-                                          <label for="name">NAME</label>
-                                          <input type="text" name="name" id="name" class="required">
-                                        </p>
+                                        <input type="email" name="_replyto">
                                         
-                                        <p>
-                                          <label for="email">EMAIL</label>
-                                          <input type="text" name="email" id="email" class="required email">
-                                        </p>
+                                        </label>
                                         
+                                        <label>Your message:
                                         
-                                        <p>
-                                          <label for="message">MESSAGE</label>
-                                          <textarea name="message" id="message" class="required"></textarea>
-                                        </p>
-                                       
-                                        <p>
-                                          <input type="submit" class="submit button primary" value="SEND">
-                                        </p>
+                                        <textarea name="message"></textarea>
                                         
-                                      </form>
+                                        </label>
+                                        
+                                        <!-- your other form fields go here -->
+                                        
+                                        <button type="submit">Send</button>
+                                    
+                                    </form>
                                       
                                   </div>
                                   <!-- .contact-form -->
