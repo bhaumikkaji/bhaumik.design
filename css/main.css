@@ -414,7 +414,7 @@ a.more-link,
  	max-height: 160px; border-radius: 50%;
 		}
 	.header p {
- 	font-size: 1em; margin: .1em 0 .6em; display: inline-block; font-style: italic; padding: 6px 10px; background: #E95144; color: #345; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
+ 	font-size: 1.1em; margin: .1em 0 .6em; display: inline-block; font-style: italic; padding: 6px 10px; background: #61BFAD; color: #345; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
 		}
 /* single page menu  */
 .single-page-layout .vs-nav li a {
@@ -927,7 +927,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	padding: 1.0em 0 3em 0; overflow: auto;
 	}
 .letter-title {
- 	margin: 0 0 .6em 0; font-size: 2.6em; font-weight: 400; line-height: 120%; font-family: 'Tangerine', serif; color: #D0DADC;
+ 	margin: 0 0 .6em 0; font-size: 1.6em; font-weight: 400; line-height: 120%; font-family: 'Prata', serif; color: #273034;
 	}
 .letter-info {
  	margin-left: 130px;
