@@ -2,7 +2,7 @@
 
 /* HEADER */
 .header { 
-	color: #fff; background: #273034; background-image: url(../../images/site/star.gif); background-size: cover;  background-position: center center;
+	position: relative; width: 100%; background-color: #FFFFFF; background-image: url(../../images/site/star.gif); background-size: cover;  background-position: center center;
 	}
 
 .lottie { 
