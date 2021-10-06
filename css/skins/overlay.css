@@ -1,6 +1,7 @@
 /* OVERLAY STYLE */
 
 /* HEADER */
+
 .header { 
 	position: relative; width: 100%; background-color: #345; background-image: url(../../images/site/cover.jpg); background-size: cover;  background-position: center center; 
 	}
