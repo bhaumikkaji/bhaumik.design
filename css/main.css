@@ -588,7 +588,7 @@ a.more-link,
 .vs-triplelayout .vs-right-outer,
 .container.vs-triplelayout.vs-move-left .vs-current,
 .container.vs-triplelayout.vs-move-right .vs-current {
- 	opacity: .3
+ 	opacity: 0
 	}
 .container.vs-triplelayout.vs-move-left .vs-right,
 .container.vs-triplelayout.vs-move-right .vs-left {
@@ -2741,16 +2741,16 @@ a:hover {
 
 /* Service Icons */	
 .color1 i { 
-	background: #6d6875; 
+	background: #f6bd60; 
 	}
 .color2 i { 
-	background: #b5838d; 
+	background: #3d405b; 
 	}
 .color3 i { 
-	background: #e5989b; 
+	background: #84a59d; 
 	}
 .color4 i { 
-	background: #ffb4a2; 
+	background: #f28482; 
 	}	
 	
 /* PRIMARY COLOR : #096
