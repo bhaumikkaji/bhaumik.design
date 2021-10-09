@@ -445,7 +445,7 @@ a.more-link,
  	position: absolute; visibility: hidden; width: 100%;
 	}
 .vs-nav li a {
- 	font-family: Arial, Helvetica, sans-serif; position: relative; color: #D0DADC; letter-spacing: -3px; text-decoration: none; font-weight: 700; font-size: 2.7em;
+ 	font-family: Raleway , Arial, Helvetica, sans-serif; position: relative; color: #D0DADC; letter-spacing: 0px; text-decoration: none; font-weight: 700; font-size: 2.7em;
 	}
 .vs-nav li a:hover {
 	color: #BECACC;
@@ -891,7 +891,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  position: relative; padding: 1.4em 2.2em; margin: 0 16px 40px 0; background: #EFF4F5; border-radius: 6px;
 	}
 .testo:before {
- 	display: block; content: "\f10d"; line-height: 1; font-size: 14px; position: absolute; left: 10px; top: 12px; color: #fff; border: 3px solid #FFF; padding: 4px 6px; border-radius: 50%;
+ 	display: block; content: "\e871"; font-family: fontello; line-height: 1; font-size: 14px; position: absolute; left: 10px; top: 12px; color: #fff; border: 3px solid #FFF; padding: 4px 6px; border-radius: 50%;
 	}
 	.testo img {
  		display: block; float: right; max-width: 100px; border-radius: 50%; margin: -40px -60px 10px 20px; border: 8px solid #fff;
@@ -930,7 +930,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
  	padding: 1.0em 0 3em 0; overflow: auto;
 	}
 .letter-title {
- 	margin: 0 0 .6em 0; font-size: 1.6em; font-weight: 400; line-height: 120%; font-family: 'Prata', serif; color: #273034;
+ 	margin: 0 0 .6em 0; font-size: 1.6em; font-weight: 300; line-height: 120%; font-family: 'Raleway', serif; color: #273034;
 	}
 .letter-info {
  	margin-left: 130px;
@@ -1234,19 +1234,22 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		position: absolute; left: 50%; top: 50%; margin: -38px 0 0 -38px; width: 76px; line-height: 76px; font-size: 18px; text-align: center; content: "\f0ca"; color: #fff; background: #096; border-radius: 50%; 
 		}
 	.video .mask:before {
-		content: "\f03d"
+		content: "\e891"; font-family: Fontello;
 		}
 	.audio .mask:before {
 		content: "\e888"; font-family: Fontello;
 		}
 	.image .mask:before {
-		content: "\f03e"
+		content: "\e86a"; font-family: Fontello;
 		}
 	.url .mask:before {
 		content: "\e86c"; font-family: Fontello;
 		}
+	.page .mask:before {
+		content: "\e8e2"; font-family: Fontello;
+		}	
 	.latest-posts .mask:before {
-		content: "\f040"
+		content: "\e8ae"; font-family: Fontello;
 		}
 
 /* LATEST POSTS */
@@ -2400,10 +2403,10 @@ a.more-link:hover {
 	
 	/* LAYOUT */
 	.header {
-		width: 100%;
+		width: 100%; 
 		}
 	.vs-nav li a {
-	 	font-size: 2.4em
+	 	font-size: 2.4em; font-family: Oswald;
 		}
 	.content {
 		padding: 1em 3em; 
