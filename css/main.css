@@ -78,7 +78,7 @@ button {
    http://www.adtrak.co.uk/blog/font-face-chrome-rendering/#fix */
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 	@font-face {
-		font-family: 'FontAwesome'; src: url('fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
+		font-family: 'Font Awesome 5 Free Solid'; src: url('fonts/font-awesome/webfonts/fa-solid-900.svg') format('svg');
 		}
 	}
 /* FONT AWESOME ICONS */
@@ -99,7 +99,7 @@ blockquote:before,
 dd:before,
 .portfolio-nav .back:before,
 .process:before {
- 	font-family: FontAwesome; font-weight: normal; text-align: left; font-style: normal; display: inline-block; text-decoration: inherit;
+ 	font-family: 'Font Awesome 5 Free Solid'; font-weight: normal; text-align: left; font-style: normal; display: inline-block; text-decoration: inherit;
 	}
 .lottie { 
 	position: relative; height: 400px; background-size: cover; background-position: center center; 
@@ -233,7 +233,7 @@ div.checker span:before,
 div.radio span:before,
 div.uploader 
 span.action:before {
- 	font-family: FontAwesome; font-weight: normal; font-size: 9px; width: 1.8em; text-align: right; font-style: normal; display: inline-block; text-decoration: inherit;
+ 	font-family: 'Font Awesome 5 Free Solid'; font-weight: normal; font-size: 9px; width: 1.8em; text-align: right; font-style: normal; display: inline-block; text-decoration: inherit;
 	}
 div.selector:before {
  	position: absolute; top: 0; right: 15px; font-size: 26px; color: #b7c6c9; content: "\f107";
@@ -1803,10 +1803,10 @@ a.button.colored {
 	color: #096; border-color: #096; background: none;
 	}
 .icon.prev:before {
- 	content: "\f104"
+ 	content: "\e8e1"; font-family: 'fontello';
 	}
 .icon.next:before {
- 	content: "\f105"
+ 	content: "\e8e2"; font-family: 'fontello';
 	}
 .portfolio-nav a.button.back {
  	display: none; margin-left: 34px; border-width: 0; line-height: 70px; width: 70px; font-size: 16px; color: #fff; background: #273034; border-radius: 50%;
@@ -2406,7 +2406,7 @@ a.more-link:hover {
 		width: 100%; 
 		}
 	.vs-nav li a {
-	 	font-size: 2.4em; font-family: Oswald;
+	 	font-size: 2.4em; font-family: Raleway;
 		}
 	.content {
 		padding: 1em 3em; 
