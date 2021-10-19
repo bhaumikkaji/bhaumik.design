@@ -2,7 +2,7 @@
 
 /* HEADER */
 .header { 
-	position: relative; width: 100%; background-color: #0b090a; background-size: cover;  background-position: center center;
+	position: relative; width: 100%; background-color: #0B090A; background-image: url(../../images/site/cover.png); background-size: cover;  background-position: center center;
 	}
 .single-page-layout .header .vs-nav {
 	margin-top: 0.5em; 
